@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class CounterScreen extends StatefulWidget {
-  const CounterScreen({super.key});
+class Contador1 extends StatefulWidget {
+  const Contador1({super.key});
 
   @override
-  State<CounterScreen> createState() => _CounterScreenState();
+  State<Contador1> createState() => _Contador1State();
 }
 
-class _CounterScreenState extends State<CounterScreen> {
+class _Contador1State extends State<Contador1> {
   int clickCounter = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("Pantalla del Contador")),
+        title: const Center(child: Text("Pantalla del Contador de +1")),
         actions: [
           IconButton(
             onPressed: () {

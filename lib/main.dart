@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:clics/presentacion/screens/counter_screen.dart';
+// Importa tu archivo de navegación según tu estructura de carpetas:
+import 'package:clics/presentacion/screens/NavigationExampleApp.dart';
 
 void main() {
   runApp(const MainApp());
@@ -15,7 +16,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         colorSchemeSeed: Colors.green,
       ),
-      home: const CounterScreen(),
+      home: const NavigationExampleApp(),
     );
   }
 }
